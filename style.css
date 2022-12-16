@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul.second-nav{border: 2px solid red;
+    display: inline-block;
+    justify-content: right;
+
+}
+ul.second-nav li:nth-child(3){
+    font-family:Font Awesome 6 Free ;
+    font-weight: 900px;
+    content:"\f734";
+}
