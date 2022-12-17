@@ -14,17 +14,63 @@ body{
   justify-content: space-between;
   align-items: center;
   padding: 15px;
+  border: 2px solid red;
   
 }
 a{
   color: black;
   text-decoration: none;
 }
+
+a:hover{text-decoration: underline;
+  transition: ease-in 1s;
+
+
+}
+
 .header-btn{
   width: 70px; ;
   height: 30px;
   background-color: rgb(14, 119, 232);
   color: white;
   border-radius: 5px;
+  border-color: white;
 
 }
+
+.header-btn:hover{
+  background-color: rgba(14, 119, 232, 0.732);
+  cursor: pointer;
+
+
+}
+
+.right{
+  display: flex;
+  align-items: center;
+  gap:10px;
+
+}
+
+.left{
+  display: flex;
+  gap: 10px;
+}
+.main{
+  border: 2px solid red;
+  width: 100%;
+  text-align: center;
+  margin-top: 200px;}
+
+  .buttons{
+    margin: 25px;
+  }
+
+  .btn{
+    
+  }
+
+
+
+ 
+
