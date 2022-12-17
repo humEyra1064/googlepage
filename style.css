@@ -3,13 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
-ul.second-nav{border: 2px solid red;
-    display: inline-block;
-    justify-content: right;
+
+body{
+  width: 100%;
 
 }
-ul.second-nav li:nth-child(3){
-    font-family:Font Awesome 6 Free ;
-    font-weight: 900px;
-    content:"\f734";
+.header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+.header-btn{
+  width: 70px; ;
+  height: 30px;
+  background-color: rgb(14, 119, 232);
+  color: white;
+  border-radius: 5px;
+
 }
