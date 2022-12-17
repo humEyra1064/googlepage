@@ -6,6 +6,7 @@
 
 body{
   width: 100%;
+  
 
 }
 .header{
@@ -14,15 +15,15 @@ body{
   justify-content: space-between;
   align-items: center;
   padding: 15px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   
 }
 a{
-  color: black;
+  color:gray;
   text-decoration: none;
 }
 
-a:hover{text-decoration: underline;
+a:hover{text-decoration: none;
   transition: ease-in 1s;
 
 
@@ -57,18 +58,90 @@ a:hover{text-decoration: underline;
   gap: 10px;
 }
 .main{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 100%;
   text-align: center;
-  margin-top: 200px;}
+  margin-top: 150px;}
 
   .buttons{
     margin: 25px;
   }
 
-  .btn{
-    
+  .btn{margin-left: 10px;
+    width: 120px;
+    height: 30px;
+    background-color: rgba(224, 222, 222, 0.547);
+    border-radius: 3px;
+    border-color: white;
+
   }
+
+  .btn:hover{
+    cursor: pointer;
+  }
+
+ .searchbar{
+  position: relative;
+ }
+ #scope{width: 450px;
+  height: 40px;
+  border: 2px solid rgb(189, 185, 185);
+  border-radius:20px;
+  outline: none;
+  padding-left: 40px;
+  /* padding-right: 20px; */
+  
+
+ }
+
+ #buyutec{
+  width: 30px;
+  position: relative;
+  left: 46px;
+  top: 8px; 
+ }
+
+ #microphone{
+  position: relative;
+  right:38px ;
+  top: 7px;
+ }
+ #english{
+  color:blue;
+ }
+
+ .footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: aquamarine;
+  margin-top:185px;
+  padding: 20px;
+  align-items: center;
+  background-color:rgb(245, 240, 240);
+
+}
+ .left{
+  display: flex;
+  gap: 15px;
+  
+ }
+ .right{
+  display: flex;
+  gap: 15px;
+ }
+ a.end{
+  color: gray;
+ }
+ a.end:hover{
+  text-decoration: none;
+ }
+ .turkey{
+  background-color:rgb(245, 240, 240);
+  position: relative;
+  top: 185px;
+  padding: 15px;
+  color: gray;
+ }
 
 
 
