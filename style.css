@@ -82,6 +82,8 @@ a:hover{text-decoration: none;
 
  .searchbar{
   position: relative;
+  flex-wrap: wrap;
+
  }
  #scope{width: 450px;
   height: 40px;
