@@ -101,6 +101,7 @@ a:hover{text-decoration: none;
   position: relative;
   left: 46px;
   top: 8px; 
+  flex-wrap: wrap;
  }
 
  #microphone{
