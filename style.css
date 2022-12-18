@@ -121,16 +121,19 @@ a:hover{text-decoration: none;
   padding: 20px;
   align-items: center;
   background-color:rgb(245, 240, 240);
+  flex-wrap: wrap;
 
 }
  .left{
   display: flex;
   gap: 15px;
+  flex-wrap: wrap;
   
  }
  .right{
   display: flex;
   gap: 15px;
+  flex-wrap: wrap;
  }
  a.end{
   color: gray;
